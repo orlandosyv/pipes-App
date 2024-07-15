@@ -4,7 +4,8 @@ import { MenuItem, PrimeIcons } from 'primeng/api';
 @Component({
   selector: 'shared-menu',
   templateUrl: './menu.component.html',
-  styles: ``,
+  styles: `
+  `,
 })
 
 export class MenuComponent {
@@ -13,8 +14,6 @@ export class MenuComponent {
 
   ngOnInit() {
     this.menuItems = [
-      // { label: 'New', icon: 'pi pi-plus' },
-      // { label: 'Search', icon: 'pi pi-search' },
       {
         label: 'Angular Pipes',
         icon: 'pi pi-desktop',
