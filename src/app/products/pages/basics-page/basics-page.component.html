@@ -1,1 +1,21 @@
-<p>!!!!Basics-page works!</p>
+<p-panel>
+  <h1>Basic Pipes</h1>
+  <p>Pipes included in Angular - usually in Common Modules</p>
+</p-panel>
+<div class="p-grid">
+  <div class="p-col-4">
+    <p-card header="uppercase">
+      {{nameLowerCase | uppercase}}
+    </p-card>
+  </div>
+  <div class="p-col-4">
+    <p-card header="lowercase">
+      {{nameUpperCase | lowercase}}
+    </p-card>
+  </div>
+  <div class="p-col-4">
+    <p-card header="titlecase">
+      {{fullname | titlecase}}
+    </p-card>
+  </div>
+</div>
