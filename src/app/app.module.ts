@@ -22,7 +22,7 @@ registerLocaleData(localeDeutsch);
   ],
   providers: [
     {
-      provide: LOCALE_ID, useValue: 'es-PE'
+      provide: LOCALE_ID, useValue: 'en-US' //by default is es-US
     }
   ],
   bootstrap: [AppComponent],
