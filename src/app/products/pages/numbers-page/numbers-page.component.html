@@ -9,13 +9,13 @@
     </p-card>
   </div>
   <div class="col-12 md:col-4">
-    <p-card header="Total Sells" subheader="current Year">
-      {{totalSells | currency}}
+    <p-card header="Gross Sells" subheader="current Year">
+      {{ totalSells | currency:'PEN':'S/. ':'1.4-4' }}
     </p-card>
   </div>
   <div class="col-12 md:col-4">
     <p-card header="%">
-      {{percent | percent}}
+      {{percent | percent:'1.2-2'}}
     </p-card>
 
   </div>
