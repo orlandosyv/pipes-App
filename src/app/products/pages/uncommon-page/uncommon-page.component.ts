@@ -31,4 +31,10 @@ export class UncommonPageComponent {
     '=1': 'we have only 1 customer ahead of you',
     other: 'we have # customers waiting 🫠 ',
   };
+
+  public person = {
+    name: 'Orlando',
+    age: 35,
+    address: 'Huancayo, Peru'
+  }
 }
